@@ -12,6 +12,7 @@ public class CuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.TipoCuenta = TipoCuenta;
         this.interes_mensual = interes_mensual;
+
     }
 
     void imprimir(){

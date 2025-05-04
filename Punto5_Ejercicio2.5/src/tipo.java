@@ -1,2 +1,1 @@
 enum tipo {AHORROS,CORRIENTE}
-

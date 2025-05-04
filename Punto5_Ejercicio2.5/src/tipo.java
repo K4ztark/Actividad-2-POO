@@ -1,0 +1,1 @@
+enum tipo {AHORROS,CORRIENTE}

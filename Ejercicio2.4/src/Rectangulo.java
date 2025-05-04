@@ -11,4 +11,5 @@ public class Rectangulo {
     public double perimetro() {
         return (2*altura)+(2*base);
     }
+
 }

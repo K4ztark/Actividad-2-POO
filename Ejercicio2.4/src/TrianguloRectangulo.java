@@ -30,4 +30,5 @@ public class TrianguloRectangulo {
             System.out.println("El triangulo es escaleno");
         }
     }
+
 }

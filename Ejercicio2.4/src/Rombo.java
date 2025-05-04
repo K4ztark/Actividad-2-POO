@@ -13,4 +13,5 @@ public class Rombo {
     public double perimetro(){
         return 4*lado;
     }
+
 }

@@ -7,6 +7,6 @@ public class Cuadrado {
         return lado * lado;
     }
     public double perimetro(){
-        return 4*lado;
+        return (4*lado);
     }
 }

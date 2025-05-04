@@ -25,5 +25,6 @@ public class PruebaFiguras {
         System.out.println();
         System.out.println("El area del trapecio es: "+figura6.area());
         System.out.println("El perimetro del trapecio es: "+figura6.perimetro());
+
     }
 }

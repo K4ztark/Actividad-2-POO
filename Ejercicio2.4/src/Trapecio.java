@@ -17,4 +17,5 @@ public class Trapecio {
     public double perimetro(){
         return (base_menor+base_mayor+altura+lado_1+lado_2);
     }
+
 }

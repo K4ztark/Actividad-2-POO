@@ -1,8 +1,7 @@
 public class Planeta {
     String nombre;
     int cantidadSatelites;distanciaSol;diametro;
-    double masa;
-    double volumen;
+    double masa;volumen;
     enum TipoPlaneta {GASEOSO, TERRESTRE, ENANO}
     TipoPlaneta tipo;
     boolean observable;

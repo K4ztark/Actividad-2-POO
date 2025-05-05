@@ -9,9 +9,7 @@ public class Planeta {
     TipoPlaneta tipo;
     boolean observable;
 
-    Planeta(String nombre, int cantidadSatelites, double masa,
-            double volumen, int diametro, int distanciaSol,
-            TipoPlaneta tipo, boolean observable) {
+    Planeta(String nombre, int cantidadSatelites, double masa, double volumen, int diametro, int distanciaSol, ipoPlaneta tipo, boolean observable) {
         this.nombre = nombre;
         this.cantidadSatelites = cantidadSatelites;
         this.masa = masa;
@@ -32,7 +30,6 @@ public class Planeta {
         System.out.println("Tipo de planeta = " + tipo);
         System.out.println("Es observable = " + observable);
     }
-
     double calcularDensidad() {
         return masa / volumen;
     }
@@ -41,7 +38,6 @@ public class Planeta {
         float limite = (float)(149597870 * 3.4);
         return distanciaSol > limite;
     }
-
     public static void main(String[] args) {
         Planeta p1 = new Planeta("Tierra", 1, 5.9736E24, 1.08321E12, 12742, 150000000, TipoPlaneta.TERRESTRE, true);
         p1.imprimir();

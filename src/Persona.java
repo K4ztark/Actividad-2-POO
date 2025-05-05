@@ -1,5 +1,3 @@
-package Actividad2_Ejercicio1;
-
 public class Persona {
     String nombre;
     String apellidos;

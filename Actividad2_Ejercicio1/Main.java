@@ -1,5 +1,3 @@
-package Actividad2_Ejercicio1;
-
 public class Main {
     public static void main(String[] args) {
         Persona p1 = new Persona("Pedro", "Pérez", "1053121010",1998,"Colombia",'H');
@@ -8,3 +6,7 @@ public class Main {
         p2.imprimir();
     }
 }
+
+
+
+
